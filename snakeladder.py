@@ -76,8 +76,8 @@ def main_game(player, current_value, dice_value):
 
 
 def player_names():
-    player1 = input("Enter Player one name: ")
-    player2 = input("Enter Player two name: ")
+    player1 = input("Enter Player one name: ").strip()
+    player2 = input("Enter Player two name: ").strip()
     return player1, player2
 
 
@@ -88,12 +88,12 @@ def main_start():
     player2_current_pos = 0
 
     while True:
-        input("{} press enter to play".format(player1))
+        if input("{} press enter to play, 'Q/q' to Quit: ".format(player1)).lower() == 'q': exit(1)
         dice_value = dice_role()
         player1_current_pos = main_game(player1, player1_current_pos, dice_value)
         is_won(player1, player1_current_pos)
 
-        input("{} press enter to play".format(player2))
+        if input("{} press enter to play, 'Q/q' to Quit: ".format(player2)).lower() == 'q': exit(1)
         dice_value = dice_role()
         player2_current_pos = main_game(player2, player2_current_pos, dice_value)
         is_won(player2, player2_current_pos)

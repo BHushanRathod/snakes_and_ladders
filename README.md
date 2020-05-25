@@ -44,8 +44,6 @@ Run/Start::
 -----------------
 <p align="center">Code is replica of below game board with snakes and ladders placed at exact places show in the board. </p>
 <p align="center">
-  <img width="600" height="600" src="https://i.pinimg.com/originals/36/11/c0/3611c04f0565da2a2d0bf911c198617d.png">
+  <img width="600" height="600" src="https://codepumpkin.com/wp-content/uploads/2017/03/SnakeNLadder.jpg">
 </p>
-<a href="https://in.pinterest.com/">Source</a>
-
        

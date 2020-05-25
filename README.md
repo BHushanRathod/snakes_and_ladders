@@ -17,7 +17,7 @@ Download the souce code::
    
 Activate the Virtual Environment::
 
-    No venev requreied
+    No venev required
 
 Install the Dependencies::
 
@@ -40,3 +40,12 @@ Run/Start::
     * If player hits the cell with base of the ladder, he'll get Up in the cell having top end of ladder.
     * First player to enter 100th cell, wins the game.
     * Player can quit the game anytime before rolling the dice by pressing 'Q' or 'q'.
+    
+-----------------
+<p align="center">Code is replica of below game board with snakes and ladders placed at exact places show in the board. </p>
+<p align="center">
+  <img width="600" height="600" src="https://i.pinimg.com/originals/36/11/c0/3611c04f0565da2a2d0bf911c198617d.png">
+</p>
+<a href="https://in.pinterest.com/">Source</a>
+
+       
